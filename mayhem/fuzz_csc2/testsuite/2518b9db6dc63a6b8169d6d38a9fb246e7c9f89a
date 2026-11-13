@@ -1,0 +1,7 @@
+schema
+{
+   int  id null=yes
+   cstring a[1"stuvwxyzA"
+   cstring d[1000] dbstore="BCDEFGHIJ"
+}
+

@@ -1,0 +1,14 @@
+schema
+{
+    int      a
+    cstring  b[s2]
+    blob     c
+    int      d
+}
+
+keys
+{
+    "A" =  a
+    "D" =  d
+dup "B" =  b
+}

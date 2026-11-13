@@ -1,0 +1,15 @@
+schema
+{
+   int a null=yes
+   int b null=yes
+}
+keys
+{
+   "ID"  = a
+   "b_where" = b { where b >t b null=yes
+}
+keys
+{
+   "ID"  = a
+   "b_where" = b {  5}
+}

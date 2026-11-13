@@ -1,0 +1,76 @@
+schema {
+    int f0
+    int f1
+    int f2
+    int f3
+    int f4
+    int f5
+    int f6
+    int f7
+    int f8
+    int f9
+    int f10
+    int f11
+    int f12
+    int f13
+   n ti f14
+    int f15
+    int f16
+    int f17
+    int f18
+    int f19
+    int f20
+    int f21
+    int f22
+    int f23
+    int f24
+    int f25
+    int f26
+    int f27
+    int f28
+    int f29
+    int f30
+    int f31
+    int f32
+    int f33
+    int f34
+    int f35
+    int      alltypes_int                    null=no
+    u_int       alltypes_u_int                  null=yes
+    longlong    alltypes_longlong               null=yes
+    float       alltypes_float                  null=yes
+    double      alltypes_double                 null=yes
+    byte        alltypes_byte[16]               null=yes
+    cstring     alltypes_cstring[16]            null=yes
+    pstring     alltypes_pstring[16]            null=yes
+    blob        alltypes_blob   0" = f20
+    "K21" = f21
+    "K22" = f22
+    "K23" = f23
+    "K24" = f24
+    "K25" = f25
+    "K26" = f26
+    "K27" = f27
+    "K28" = f28
+    "K29" = f29
+    "K30" = f30
+    "K31" = f31
+    "K32" = f32
+    "K33" = f33
+    "K34" = f34
+    "K35" = f35
+    "K36" = f36
+    "K37" = f37
+    "K38" = f38
+    "K39" = f39
+    "K40" = f40
+    "K41" = f41
+    "K42" = f42
+    "K43" = f43
+    "K44" = f44
+    "K45" = f45
+    "K46" = f46
+    "K47" = f47
+    "K48" = f48
+    "K49" = f49
+}

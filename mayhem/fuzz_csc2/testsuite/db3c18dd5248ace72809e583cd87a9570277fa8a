@@ -1,0 +1,23 @@
+schema
+{
+    int p
+    int q
+}
+
+keys
+{
+    dup "pq0" = p + <DESCEND> q
+    dup "pq1" = <DESCEND> p + q
+}
+
+constraints
+{
+    "pq0"schema
+{
+    int a
+    int b
+ -иииииииииииииииииииииииl=yeete cascade
+    "pq1" -> <"t2":"a"> on update cascade on s
+}delete cascade
+}
+

@@ -1,0 +1,10 @@
+schema
+{
+    int  id
+    cstring name[0]
+    blob data
+ @  blob data2 null=yes
+    bhob data6 null=yes
+    blob data7 null=yes
+    blob data8 null=yes
+}

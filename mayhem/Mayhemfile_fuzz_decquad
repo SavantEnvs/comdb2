@@ -1,0 +1,9 @@
+project: savantenvs/comdb2
+target: fuzz_decquad
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_decquad/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_decquad
+    libfuzzer: true
+    timeout: 30

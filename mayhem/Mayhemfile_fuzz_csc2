@@ -1,0 +1,9 @@
+project: savantenvs/comdb2
+target: fuzz_csc2
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_csc2/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_csc2
+    libfuzzer: true
+    timeout: 30

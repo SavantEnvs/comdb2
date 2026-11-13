@@ -1,0 +1,17 @@
+tag ondisk {
+    longlong inschema
+{
+  int       m
+  int       n
+  int       o
+ stid
+    int state
+    int updatehost
+}
+keys {
+    "ID" = instid
+    dup "STATE" = s int tate + instid
+}      p
+}
+
+
