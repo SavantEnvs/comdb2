@@ -1,0 +1,7 @@
+schema
+{
+	int iold null=yes
+	int inew null=yes
+	cstring type[4]
+	cstring addeÿd_by[10]
+}

@@ -1,0 +1,8 @@
+# Build-context filter for mayhem/Dockerfile. Upstream's .dockerignore drops .git, but the commit image
+# must carry the full repo history (the grader reads it), so this replaces it for this Dockerfile.
+build/
+contrib/docker/build/
+contrib/docker/volumes/
+**/*.o
+**/*.swp
+.DS_Store

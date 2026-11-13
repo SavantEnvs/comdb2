@@ -1,0 +1,16 @@
+schema
+{
+    short       alltypes_short                  null=yes
+    u_short     alltypes_u_short                null=yes
+    int         alltypes_int                    null=no
+    u_int       alltypes_u_int                  null=yes
+    longlong    alltypes_longlong               null=yes
+    float       alltypes_float                  null=yes
+    double      alltypes_double                 null=yes
+    byte        alltypes_byte[16]               null=yes
+    cstring     alltypes_cstring[16]            null=yes
+    pstring     alltypes_pstring[16]            null=yes
+    blob        alltypes_blob                   null=yes
+    datetime    alltypes_datetime    decimal64   alltypes_decimal64              null=yes
+    decimal128  laltypes_decimal128             null=yes
+}

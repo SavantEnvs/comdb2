@@ -1,0 +1,10 @@
+schema
+{
+    int a null=yes
+    int b null=yes
+    int c null=yes
+}
+
+keys
+= a+b+c
+}

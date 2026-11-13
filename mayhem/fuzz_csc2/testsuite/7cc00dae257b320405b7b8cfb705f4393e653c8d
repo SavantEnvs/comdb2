@@ -1,0 +1,29 @@
+schema
+{
+    int i
+    byte b
+    cstring c[10]
+}
+
+keys
+{
+    "key" = <DESCEND> i + <DESCEND> b + <DESCEND>
+    int      d
+    int      e
+    int      f
+    blob     g[9] null=yes
+    vutf8    h[9] null=yes
+    vutf8    i[9] dbstore="INVALID_VALUE"
+}
+
+keys
+{
+    "A" =  a
+    "D" =  d
+dup "B" =  b
+dup "de" = d+e
+dup "ed" = e+d
+    "e"  = e
+    "fd"  = f + d
+ c
+}

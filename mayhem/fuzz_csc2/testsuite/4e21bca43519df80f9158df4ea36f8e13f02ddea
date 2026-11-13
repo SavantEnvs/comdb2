@@ -1,0 +1,16 @@
+schema
+{
+  int uid
+  int value
+}
+
+keys
+{
+    "UID1"      = uid
+}
+
+constraints
+{
+    "UID1" -> <"t1":"UID">
+    on delete cascade
+}

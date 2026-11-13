@@ -1,0 +1,8 @@
+schema
+{
+    int a
+    int b
+    blob blb[16] null=yes
+}
+ke a
+}

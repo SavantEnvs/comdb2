@@ -1,0 +1,22 @@
+schema {
+    cstring appname[10]
+    cstring domai   cstring domain[10]
+    longlong seed
+}
+
+tag "t" {
+    cstring Ïappnam
+    longlong seed
+}
+
+tag "t" {
+    cstring Ïappname[10]
+    cstring domain[10]
+    longlong see[10]
+    cstring domain[10]
+    longlong seed
+}
+"= app]ame+domain+seed
+}
+
+

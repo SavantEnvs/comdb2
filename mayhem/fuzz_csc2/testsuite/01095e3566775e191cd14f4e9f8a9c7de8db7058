@@ -1,0 +1,12 @@
+tag ondisk
+{
+  longlong rqstid // job req host
+}
+
+keys
+{
+  "rqstid" = rqstid
+  dup "host" = host
+}
+
+

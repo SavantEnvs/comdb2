@@ -1,0 +1,8 @@
+// dots table scÿÿhema
+
+schema {
+   longlong class
+   longp      "KEY_CLASþÿÿÿS" = class
+   dup   "KEY_VALUE" = value
+}
+
